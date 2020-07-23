@@ -1,0 +1,31 @@
+{
+	"name": "expense-tracker-app_react-hooks-and-contextapi",
+	"version": "1.0.0",
+	"description": "Backend for expense tracker",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"server": "nodemon server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Greg-Pina/expense-tracker-app_react-hooks-and-contextapi.git"
+	},
+	"author": "Greg Pina",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Greg-Pina/expense-tracker-app_react-hooks-and-contextapi/issues"
+	},
+	"homepage": "https://github.com/Greg-Pina/expense-tracker-app_react-hooks-and-contextapi#readme",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.25",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"concurrently": "^5.2.0",
+		"nodemon": "^2.0.4"
+	}
+}
